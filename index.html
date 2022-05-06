@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header class="header">
+          <h1 class="header__main">calc</h1>
+          <div class="header__theme">
+            <span class="theme__copy">THEME</span>
+            <div class="header__theme--switch">
+              <span class="theme__id">1 2 3</span>
+              <div class="theme__switch">
+                <a href="/" class="theme--one" title="theme one"></a>
+                <a href="/" class="theme--two" title="theme two"></a>
+                <a href="/" class="theme--three" title="theme three"></a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <label for="output-display">
+          <input
+            class="input__main"
+            type="text"
+            disabled
+            value="0"
+            id="output-display"
+          />
+        </label>
+        <form class="btn__group">
+          <button class="btn" value="7">7</button>
+          <button class="btn" value="8">8</button>
+          <button class="btn" value="9">9</button>
+          <button class="btn btn--alt">DEL</button>
+          <button class="btn" value="4">4</button>
+          <button class="btn" value="5">5</button>
+          <button class="btn" value="6">6</button>
+          <button class="btn" value="+">+</button>
+          <button class="btn" value="1">1</button>
+          <button class="btn" value="2">2</button>
+          <button class="btn" value="3">3</button>
+          <button class="btn" value="-">-</button>
+          <button class="btn" value=".">.</button>
+          <button class="btn" value="0">0</button>
+          <button class="btn" value="/">/</button>
+          <button class="btn" value="×">x</button>
+          <button class="btn btn--alt btn--reset" type="reset">RESET</button>
+          <button class="btn btn--equals">=</button>
+        </form>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
