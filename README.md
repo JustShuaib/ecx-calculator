@@ -1,1 +1,1 @@
-https://calculator-app-shuaib.netlify.app
+https://justshuaib.github.io/ecx-calculator/
